@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metric Types</title>
+</head>
+<body>
+    <h1>List of Available Metric Data</h1>
+    <ul>
+        <li><a href="{% url 'metrics:get_metric_data' metric='heart_rate' %}">Heart Rate</a></li>
+        <li><a href="{% url 'metrics:get_metric_data' metric='resting_heart_rate' %}">Resting Heart Rate</a></li>
+        <li><a href="{% url 'metrics:get_metric_data' metric='steps' %}">Step Count</a></li>
+        <li><a href="{% url 'metrics:get_metric_data' metric='sleep' %}">Sleep</a></li>
+        <li><a href="{% url 'metrics:get_metric_data' metric='exercise' %}">Exercise</a></li>
+    </ul>
+</body>
+</html>

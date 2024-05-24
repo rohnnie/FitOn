@@ -1,0 +1,185 @@
+.form-group {
+    margin-bottom: 20px;
+    background-color: transparent;
+}
+.hidden{
+    display: none;
+}
+#btn_register_user {
+    margin-top: 20px;
+}
+#password_status {
+    color: red;
+}
+
+span {
+    color: rgb(114, 195, 241)
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: #ebf1f3;
+  }
+  
+  .registration-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .registration-box {
+    padding: 40px;
+    width: 40%;
+    min-width: 300px;
+    max-width: 500px;
+    background-color: #0a2049;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+  }
+  
+  .registration-box h1{
+      color: #fff;
+      padding-bottom: 40px;
+      text-align: center;
+  }
+  
+  .form-group {
+    position: relative;
+  }
+
+  .select-transparent {
+    background: transparent; /* Transparent background */
+    color: #fff; /* White text color */
+    border: 1px solid #ced4da; /* Border style */
+    border-radius: 0.25rem; /* Add border-radius for Bootstrap appearance */
+    padding: 0.375rem 0.75rem; /* Add padding for spacing */
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 17px;
+  }
+  
+  /* Style the dropdown arrow (optional) */
+  .select-transparent::-ms-expand {
+    display: none; /* Hide the default arrow on IE/Edge */
+  }
+  
+  .select-transparent::after {
+    content: '\25BC'; /* Unicode character for a downward-pointing triangle */
+    position: absolute;
+    top: 50%;
+    right: 10px; /* Adjust the arrow position as needed */
+    transform: translateY(-50%);
+    color: #fff; /* Arrow color */
+  }
+  
+  /* Style for focused state */
+  .select-transparent:focus {
+    border-color: #80bdff; /* Modify border color for focused state */
+    outline: 0; /* Remove default outline */
+    box-shadow: none; /* Remove default box-shadow */
+  }
+
+  .select-transparent option {
+    background: #000; /* Background color for unfocused options */
+    color: #fff; /* Text color for unfocused options */
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+  }
+
+  .form-group label:not(.select-label) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: 0.5s;
+  }
+
+  .select-label {
+    font-size: 12px;
+    color: rgb(114, 195, 241);
+  }
+  
+  .form-group input:focus ~ label,
+  .form-group input:not(:placeholder-shown) ~ label {
+    top: -20px;
+    left: 0;
+    color: rgb(114, 195, 241);
+    font-size: 12px;
+  }
+  
+  button:not(.close) {
+    position: relative;
+    padding: 10px 20px;
+    color: #000000;
+    background-color: rgb(114, 195, 241);
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    margin-top: 40px;
+    letter-spacing: 4px;
+    width: 100%;
+  }
+  
+  button:hover:not(.close) {
+    background: rgb(43, 158, 235);
+    border-radius: 5px;
+  }  
+
+  p {
+    color: #fff;
+    margin-top: 30px;
+  }
+
+  .login {
+    color: rgb(114, 195, 241);
+  }
+  
+  button:disabled,
+  button[disabled]{
+    border: 1px solid #999999;
+    background-color: #cccccc;
+    color: #666666;
+  }
+
+  .custom-autocomplete-menu {
+    background-color: black;
+    color: white;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ced4da; /* Add a border for a select-like appearance */
+    border-radius: 0.25rem; /* Add rounded corners for a select-like appearance */
+}
+
+.custom-autocomplete-menu .ui-menu-item {
+    padding: 8px 12px; /* Adjust padding for better spacing */
+}
+
+.custom-autocomplete-menu .ui-menu-item:hover {
+  background-color: #007bff; /* Use the desired shade of blue */
+  color: white; /* Ensure text is readable on the hover background */
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+}

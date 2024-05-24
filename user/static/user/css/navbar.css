@@ -1,0 +1,22 @@
+nav {
+  background-color: #0a2049;
+  margin-bottom: 20px;
+  padding-right: 40px !important;
+  padding-left: 40px !important;
+}
+
+nav a:hover {
+  color: rgb(255, 255, 255);
+}
+
+nav span {
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+.navbar_option {
+  margin: 5px;
+  padding-left: 20px;
+  color: aliceblue;
+}
+
